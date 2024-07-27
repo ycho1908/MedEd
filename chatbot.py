@@ -1,9 +1,7 @@
 # from flask import Flask
 from dotenv import load_dotenv
-# from openai import OpenAI
 from groq import Groq
 import os
-import openai
 import gradio as gr
 
 load_dotenv()
@@ -12,7 +10,7 @@ load_dotenv()
 
 # api_key = os.getenv('API_KEY')
 
-# openAI API key
+# Groq API key
 client = Groq(api_key = os.getenv('API_KEY'))
 
 model_engine = "llama3-8b-8192"
