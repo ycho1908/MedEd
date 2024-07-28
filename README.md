@@ -63,5 +63,5 @@ npm start
 _MedEd_ was made as a project by Yehyeon (Evelyn) Cho [Computer Science at UCLA] and Rebecca Su [Computer Science at UCI]. 
 
 
-**Made by**: [Yehyeon (Evelyn) Cho](mailto:yehyeoncho@gmail.com), [Rebecca Su](rcsu@uci.edu)
+**Made by**: [Yehyeon (Evelyn) Cho](mailto:yehyeoncho@gmail.com), Rebecca Su
 
