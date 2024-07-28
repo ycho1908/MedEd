@@ -1,4 +1,5 @@
-![MedEd Logo](./frontend/src/MedEd_logo.png)
+<img src="./frontend/src/MedEd_logo.png" alt="MedEd Logo" width="200" height="200"><br/>
+
 _MedEd_ is a full stack web application that answers any medical questions or concerns that the user/patient has.
 
 ## Features
