@@ -21,13 +21,15 @@ function HealthAdvisor() {
       <textarea
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
-        // rows="4"
-        // cols="50"
+        rows="4"
+        cols="50"
       ></textarea>
-      <button onClick={handleResponse}>Get Response</button>
+      <br/>
+      <button class="button-4" onClick={handleResponse}>Get Response</button>
       <p>Response: {response}</p>
     </div>
   );
 }
+
 
 export default HealthAdvisor;

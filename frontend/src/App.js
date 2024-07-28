@@ -1,15 +1,15 @@
-import logo from './logo.svg';
+import logo from './medChatbot_logo.png';
 import './App.css';
 import HealthAdvisor from './healthAdvisor';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Medical Assistant</h1>
-        <HealthAdvisor />
-      </header>
+      <img src={logo} className="App-logo" style={{marginTop: 0}} alt="logo" />
+      <h1 style={{marginTop: 0}}>MedEd</h1>
+      <p>Keep your inquisitive self going!</p>
+      <hr/>
+      <HealthAdvisor />
     </div>
   );
 }
