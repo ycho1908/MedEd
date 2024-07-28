@@ -9,7 +9,7 @@ function HealthAdvisor() {
   const handleResponse = async () => {
     setIsLoading(true);
     try {
-      const result = await axios.post('http://localhost:8000/medChatBot', { prompt });
+      const result = await axios.post('http://localhost:8000/medEd', { prompt });
       setResponse(result.data.response);
     } catch (error) {
       console.error('Error generating response', error);

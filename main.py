@@ -89,7 +89,7 @@ class Prompt(BaseModel):
 # output_text = gr.Textbox(label="Output")
 # gr.Interface(fn=generate_response, inputs=input_text, outputs=output_text, title="Chat with GPT-3", description="Enter to chat").launch(share=True)
 
-@app.post("/medChatBot")
+@app.post("/medEd")
 async def generate_response_route(prompt: Prompt):
     result = generate_response(prompt.prompt)
     return {"response": result}

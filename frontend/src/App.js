@@ -1,4 +1,4 @@
-import logo from './medChatbot_logo.png';
+import logo from './medEd.png';
 import './App.css';
 import HealthAdvisor from './healthAdvisor';
 
