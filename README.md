@@ -1,3 +1,4 @@
+# <img src="./frontend/MedEd_logo.png" width=30px> MedEd <img src="./frontend/MedEd_logo.png" width=30px>
 _MedEd_ is a full stack web application that answers any medical questions or concerns that the user/patient has.
 
 ## Features
